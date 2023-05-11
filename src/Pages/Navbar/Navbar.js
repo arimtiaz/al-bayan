@@ -16,7 +16,7 @@ const Navbar = () => {
                     class="text-black transition hover:text-black/75"
                     href="/"
                   >
-                    About
+                    HOME
                   </a>
                 </li>
 
@@ -25,7 +25,7 @@ const Navbar = () => {
                     class="text-black transition hover:text-black/75"
                     href="/"
                   >
-                    Careers
+                    ABOUT
                   </a>
                 </li>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
                     class="text-black transition hover:text-black/75"
                     href="/"
                   >
-                    History
+                    COURSE
                   </a>
                 </li>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
                     class="text-black transition hover:text-black/75"
                     href="/"
                   >
-                    Services
+                    BLOG
                   </a>
                 </li>
 
@@ -52,16 +52,7 @@ const Navbar = () => {
                     class="text-black transition hover:text-black/75"
                     href="/"
                   >
-                    Projects
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    class="text-black transition hover:text-black/75"
-                    href="/"
-                  >
-                    Blog
+                    CONTACT
                   </a>
                 </li>
               </ul>
@@ -85,6 +76,16 @@ const Navbar = () => {
               </div>
 
               <button class="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden">
+              <ul>
+                  <li>
+                  <a
+                    class="text-black transition hover:text-black/75"
+                    href="/"
+                  >
+                    Blog
+                  </a>
+                </li>
+                  </ul>
                 <span class="sr-only">Toggle menu</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
